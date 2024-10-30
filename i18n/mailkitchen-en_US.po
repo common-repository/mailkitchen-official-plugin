@@ -1,0 +1,192 @@
+# FRench translations for PACKAGE package.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mk_plugin 1.0\n"
+"Report-Msgid-Bugs-To: support@mailkitchen.com\n"
+"POT-Creation-Date: 2015-02-11 10:00+0100\n"
+"PO-Revision-Date: 2015-05-07 17:12+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Poedit-SourceCharset: utf8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.4\n"
+"Language: en_US\n"
+
+#: php/config.php:12
+msgid "mon_compte"
+msgstr "Mail<span style=\"color:#A7CA01;\">K</span>itchen <span class=\"mk-submenu\">account</span> "
+
+#: php/config.php:13
+msgid "creer_form"
+msgstr "Create a sign-up form"
+
+#: php/config.php:266
+msgid "titre_plugin_barchoix"
+msgstr "Sign-up form for Mail<span style='color:#A7CA01;'>K</span>itchen"
+
+#: php/config.php:264
+msgid "description_plugin_barchoix"
+msgstr "Sign-up form MailKitchen "
+
+#: php/config.php:294
+msgid "titre_plugin_edition"
+msgstr "Select your Sign-up form"
+
+#: php/config.php:294 php/config.php:307
+msgid "lien_plugin_edition"
+msgstr "<a href=\"admin.php?page=create-your-form\">Create a new sign-up form</a>"
+
+#: php/config.php:307
+msgid "description_plugin_edition"
+msgstr "You haven't created your sign-up form"
+
+#: php/config.php:7
+msgid "abs_liste_diffusion"
+msgstr "The form cannot be registered - you haven't selected any Mailing List for the sign-up form."
+
+#: php/account-information.php:18
+msgid "titre_account_information"
+msgstr "Mail<span style=\"color:#A7CA01;\">K</span>itchen account management"
+
+#: php/account-information.php:22 php/account-information.php:42
+msgid "soustitre_account_information"
+msgstr "Welcome to the Mail<span style=\"color:#A7CA01;\">K</span>itchen extension!"
+
+#: php/account-information.php:23
+msgid "description_account_information"
+msgstr "Please type your Mail<span style=\"color:#A7CA01;\">K</span>itchen login details. If you not have them, you can create an account for free by <a href='http://www.mailkitchen.com/' target='_blank'>clicking here</a>."
+
+#: php/account-information.php:27
+msgid "titre_connexion_account_information"
+msgstr "Sign in"
+
+#: php/account-information.php:29
+msgid "login_connexion_account_information"
+msgstr "Username"
+
+#: php/account-information.php:32
+msgid "mdp_connexion_account_information"
+msgstr "Password"
+
+#: php/account-information.php:34
+msgid "btn_val_connexion_account_information"
+msgstr "Login"
+
+#: php/account-information.php:36
+msgid "oublimdp_connexion_account_information"
+msgstr "Forgot your password? <a href='https://mail.mailkitchen.com/' target='_blank'>Click here</a>"
+
+#: php/account-information.php:44
+msgid "soustitre2_account_information"
+msgstr "Your are already connected!"
+
+#: php/account-information.php:46
+msgid "description2_account_information"
+msgstr "If you want to desynchronize your Wordpress site and your MailKitchen account, just click the following link"
+
+#: php/account-information.php:50
+msgid "btn_sup_account_information"
+msgstr "Delete my login details"
+
+#: php/account-information.php:57
+msgid "titre_menu_account_information"
+msgstr "Next steps"
+
+#: php/account-information.php:57
+msgid "lien1_menu_account_information"
+msgstr "Create a sign-up form"
+
+#: php/create-your-form.php:30
+msgid "titre_create_your_form"
+msgstr "Your  Mail<span style=\"color:#A7CA01;\">K</span>itchen form set-up!"
+
+#: php/create-your-form.php:33
+msgid "description_create_your_form"
+msgstr "To create a subscription form for your newsletters, just type in the information to display to your visitors"
+
+#: php/create-your-form.php:38
+msgid "titre_action_create_your_form"
+msgstr "Create form"
+
+#: php/create-your-form.php:43
+msgid "soustitre_action_create_your_form"
+msgstr "Choose your form"
+
+#: php/create-your-form.php:51
+msgid "btn_action_create_your_form"
+msgstr "<span>or <button id=\"new_form\" class=\"button button-primary customize load-customize hide-if-no-customize\" >Create a new form</button></span>"
+
+#: php/create-your-form.php:66
+msgid "titre_form_action_create_your_form"
+msgstr "Customise form"
+
+#: php/create-your-form.php:72
+msgid "label_liste_form_action_create_your_form"
+msgstr "Save form :"
+
+#: php/create-your-form.php:73
+msgid "champ_liste_form_action_create_your_form"
+msgstr "You need to choose an Mailing List"
+
+#: php/create-your-form.php:84
+msgid "label_titre_form_action_create_your_form"
+msgstr "Form title :"
+
+#: php/create-your-form.php:85
+msgid "label_description_form_action_create_your_form"
+msgstr "Presentation text:"
+
+#: php/create-your-form.php:86
+msgid "label_labemail_form_action_create_your_form"
+msgstr "Email label :"
+
+#: php/create-your-form.php:87
+msgid "label_chpemail_form_action_create_your_form"
+msgstr "Email field :"
+
+#: php/create-your-form.php:91
+msgid "label_btnvalidation_form_action_create_your_form"
+msgstr "Validation button :"
+
+#: php/create-your-form.php:92
+msgid "label_mention_form_action_create_your_form"
+msgstr "Mandatory information :"
+
+#: php/create-your-form.php:none
+msgid "label_msgvalidation_form_action_create_your_form"
+msgstr "Validation Message of your Form:"
+
+#: php/create-your-form.php:none
+msgid "label_msgerreur_form_action_create_your_form"
+msgstr "Error text (invalid mail, connection problem, etc.) :"
+
+#: php/create-your-form.php:93
+msgid "btn_val_form_action_create_your_form"
+msgstr "Save"
+
+#: php/create-your-form.php:99
+msgid "titre_apercu_action_create_your_form"
+msgstr "Preview :"
+
+#: php/create-your-form.php:124
+msgid "titre_action_delete_your_form"
+msgstr "Delete form"
+
+#: php/create-your-form.php:129
+msgid "btn_action_delete_your_form"
+msgstr "<button id=\"delete_form\" class=\"button customize load-customize hide-if-no-customize\" >Delete the form</button>"
+
+#: php/create-your-form.php:135
+msgid "txt_validation_delete_your_form"
+msgstr "Your have deleted the #name# form. The data collected so far will remain available in your MailKitchen account until you delete it."
+
+#: php/pluginform.php:134
+msgid "abs_list_plugin_edition"
+msgstr "If you don’t select a mailing list for this sign-up form, your email address won’t be saved."

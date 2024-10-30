@@ -1,0 +1,194 @@
+# FRench translations for PACKAGE package.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# File and line number was for the first declaration
+# Text could be moved after
+# Automatically generated, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mk_plugin 1.0\n"
+"Report-Msgid-Bugs-To: support@mailkitchen.com\n"
+"POT-Creation-Date: 2015-02-11 10:00+0100\n"
+"PO-Revision-Date: 2015-04-23 18:07+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Poedit-SourceCharset: utf8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.4\n"
+"Language: fr_FR\n"
+
+#: php/config.php:12
+msgid "mon_compte"
+msgstr "<span class=\"mk-submenu\">Mon compte</span> Mail<span style=\"color:#A7CA01;\">K</span>itchen"
+
+#: php/config.php:13
+msgid "creer_form"
+msgstr "Cr&eacute;er votre formulaire d'inscription"
+
+#: php/config.php:266
+msgid "titre_plugin_barchoix"
+msgstr "Formulaire MailKitchen"
+
+#: php/config.php:264
+msgid "description_plugin_barchoix"
+msgstr "Formulaire d'inscription email pour MailKitchen"
+
+#: php/config.php:294
+msgid "titre_plugin_edition"
+msgstr "Choisir votre formulaire"
+
+#: php/config.php:294 php/config.php:307
+msgid "lien_plugin_edition"
+msgstr "<a href=\"admin.php?page=create-your-form\">Cr&eacute;ez un nouveau formulaire</a>"
+
+#: php/config.php:307
+msgid "description_plugin_edition"
+msgstr "Vous n'avez pas encore cr&eacute;&eacute; de formulaire &aacute; ins&eacute;rer"
+
+#: php/config.php:7
+msgid "abs_liste_diffusion"
+msgstr "vous n'avez pas choisis de listes de diffusion donc aucunes sauvegarde ne sera possible sur MK"
+
+#: php/account-information.php:18
+msgid "titre_account_information"
+msgstr "Gestion du compte Mail<span style=\"color:#A7CA01;\">K</span>itchen"
+
+#: php/account-information.php:22 php/account-information.php:42
+msgid "soustitre_account_information"
+msgstr "Bienvenue dans l'extension Mail<span style=\"color:#A7CA01;\">K</span>itchen!"
+
+#: php/account-information.php:23
+msgid "description_account_information"
+msgstr "Merci d'indiquer vos identifiants Mail<span style=\"color:#A7CA01;\">K</span>itchen. Si vous n'en avez pas, vous pouvez cr&eacute;er un compte gratuitement en <a href='http://www.mailkitchen.com' target='_blank'>cliquant ici</a>"
+
+#: php/account-information.php:27
+msgid "titre_connexion_account_information"
+msgstr "Connectez-vous"
+
+#: php/account-information.php:29
+msgid "login_connexion_account_information"
+msgstr "identifiant"
+
+#: php/account-information.php:32
+msgid "mdp_connexion_account_information"
+msgstr "Mot de passe"
+
+#: php/account-information.php:34
+msgid "btn_val_connexion_account_information"
+msgstr "connexion"
+
+#: php/account-information.php:36
+msgid "oublimdp_connexion_account_information"
+msgstr "Mot de passe oubli&eacute; <a href='https://mail.mailkitchen.com/' target='_blank'>cliquez ici.</a>"
+
+#: php/account-information.php:44
+msgid "soustitre2_account_information"
+msgstr "Vous &ecirc;tes d&eacute;ja connect&eacute!"
+
+#: php/account-information.php:46
+msgid "description2_account_information"
+msgstr "Si vous souhaitez d&eacute;synchroniser votre site Wordpress et votre compte Mail<span style=\"color:#A7CA01;\">K</span>itchen, il vous suffit de bouton sur le lien suivant"
+
+#: php/account-information.php:50
+msgid "btn_sup_account_information"
+msgstr "Suppression de vos identifiants"
+
+#: php/account-information.php:57
+msgid "titre_menu_account_information"
+msgstr "&Eacute;tapes suivantes"
+
+#: php/account-information.php:57
+msgid "lien1_menu_account_information"
+msgstr "Ins&eacute;rer un formulaire d'inscription"
+
+#: php/create-your-form.php:30
+msgid "titre_create_your_form"
+msgstr "Mise en place de votre formulaire Mail<span style=\"color:#A7CA01;\">K</span>itchen!"
+
+#: php/create-your-form.php:33
+msgid "description_create_your_form"
+msgstr "Pour créer un formulaire d'inscription &agrave; vos newsletters, il vous suffit de saisir les informations &agrave; afficher &agrave; vos visiteurs.Un visiteur souhaitant s'inscrire &agrave; votre newsletter n'aura &agrave; son tour qu'&agrave; remplir le formulaire propos&eacute;.Les informations seront alors automatiquement ajoutées &agrave; votre base de donn&eacute;es h&eacute;berg&eacute;e sur votre compte Mail<span style=\"color:#A7CA01;\">K</span>itchen"
+
+#: php/create-your-form.php:38
+msgid "titre_action_create_your_form"
+msgstr "Cr&eacute;ation formulaire"
+
+#: php/create-your-form.php:43
+msgid "soustitre_action_create_your_form"
+msgstr "Choisir votre formulaire"
+
+#: php/create-your-form.php:51
+msgid "btn_action_create_your_form"
+msgstr "ou <button id=\"new_form\" class=\"button button-primary customize load-customize hide-if-no-customize\" >Cr&eacute;ez un nouveau formulaire</button>"
+
+#: php/create-your-form.php:66
+msgid "titre_form_action_create_your_form"
+msgstr "Personnalisation du formulaire"
+
+#: php/create-your-form.php:72
+msgid "label_liste_form_action_create_your_form"
+msgstr "Enregistrement du formulaire :"
+
+#: php/create-your-form.php:73
+msgid "champ_liste_form_action_create_your_form"
+msgstr "Choisir une liste de diffusion"
+
+#: php/create-your-form.php:84
+msgid "label_titre_form_action_create_your_form"
+msgstr "Titre formulaire :"
+
+#: php/create-your-form.php:85
+msgid "label_description_form_action_create_your_form"
+msgstr "Texte de pr&eacute;sentation :"
+
+#: php/create-your-form.php:86
+msgid "label_labemail_form_action_create_your_form"
+msgstr "Label email :"
+
+#: php/create-your-form.php:87
+msgid "label_chpemail_form_action_create_your_form"
+msgstr "Champ email :"
+
+#: php/create-your-form.php:91
+msgid "label_btnvalidation_form_action_create_your_form"
+msgstr "Bouton validation :"
+
+#: php/create-your-form.php:92
+msgid "label_mention_form_action_create_your_form"
+msgstr "Mention obligatoire :"
+
+#: php/create-your-form.php:none
+msgid "label_msgvalidation_form_action_create_your_form"
+msgstr "message validation:"
+
+#: php/create-your-form.php:none
+msgid "label_msgerreur_form_action_create_your_form"
+msgstr "message erreur:"
+
+#: php/create-your-form.php:93
+msgid "btn_val_form_action_create_your_form"
+msgstr "Enregistrer"
+
+#: php/create-your-form.php:99
+msgid "titre_apercu_action_create_your_form"
+msgstr "Aper&ccedil;u du formulaire :"
+
+#: php/create-your-form.php:124
+msgid "titre_action_delete_your_form"
+msgstr "Suppression de formulaire"
+
+#: php/create-your-form.php:129
+msgid "btn_action_delete_your_form"
+msgstr "<button id=\"delete_form\" class=\"button customize load-customize hide-if-no-customize\" >Supprimer le formulaire</button>"
+
+#: php/create-your-form.php:135
+msgid "txt_validation_delete_your_form"
+msgstr "Vous avez supprimé le formulaire #name#. Les données collect&eacute;es jusqu'alors sont toujours disponibles sur votre compte MailKitchen jusqu'&agrave; leur suppression par vos soins."
+
+#: php/pluginform.php:134
+msgid "abs_list_plugin_edition"
+msgstr "Si vous ne s&eacute;lectionnez aucune liste de diffusion pour ce formulaire, aucune adresse email ne pourra &ecirc;tre sauvegard&eacute;e."

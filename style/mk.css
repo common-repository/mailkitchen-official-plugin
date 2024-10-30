@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*menu*/
+#toplevel_page_mailkitchen .wp-menu-name .mk-submenu {
+	display:none;
+}
+/*mk account*/
+
+#mk_authentification {
+	padding-left:20px;
+}
+.mk-log {
+	width:100px;
+	display:block;
+}
+#mk_authentifixcation .button.button-primary.button-hero.load-customize.hide-if-no-customize {
+	text-align:right;
+}
+
+/*mk formulaire*/
+
+.mk-content {
+	width:70%;
+}
+.mk-mailing-list h4{
+	display:inline-block;
+}
+.mk-create , .mk-form-view {
+	float:left;
+	width:50%;
+}
+.mk-create-form .mk-create label {
+	width:150px;
+	display:inline-block;
+	vertical-align: top;
+	margin-top:4px;;
+
+}
+.mk-create-form .mk-create input[type="text"],  .mk-create-form .mk-create textarea{
+	width:300px;
+	resize: none;
+}
+.mk-view  {
+	width:300px;
+	border:2px solid #999999;
+	padding:15px;
+}
+.button.button-primary.button-hero.mk-btn-save {
+    display: block;
+    float: left;
+    margin-left: 300px;
+}
+.mk-form-view {
+		float:left;
+		width:100%;
+		max-width:400px;
+		margin-left:50px;
+}
+
+@media screen and (max-width: 1500px) {
+	.mk-content {
+		width:100%;
+	}
+	
+	.button.button-primary.button-hero.mk-btn-save {
+		display: block;
+		float: right;
+		margin-left: 0;
+	}
+	.mk-form-view {
+		float:left;
+		width:100%;
+		max-width:400px;
+		margin-left:50px;
+	}
+	.mk-create {
+		float:left;
+		width:100%;
+		max-width:500px;
+	}
+	
+}
+
+@media screen and (max-width: 1300px) {
+	.mk-content {
+		width:100%;
+	}
+	.mk-create-form .mk-create label {
+		width:100%;
+		display:block;
+		vertical-align: top;
+		margin-top:4px;
+	}
+	.mk-create-form .mk-create input[type="text"],  .mk-create-form .mk-create textarea{
+		width:100%;
+		resize: none;
+		max-width:500px;
+	}
+	.mk-view  {
+		width:90%;
+		max-width:415px;
+		border:1px solid #222222;
+		padding:5%;
+	}
+}
+
+@media screen and (max-width:550px) {
+	.mk-form-view {
+		float:left;
+		width:100%;
+		max-width:400px;
+		margin-left:0;
+	}
+}
+
